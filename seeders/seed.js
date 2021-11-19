@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+require("dotenv").config();
 const db = require('../models');
 
 mongoose.connect('mongodb://localhost/workout', {
